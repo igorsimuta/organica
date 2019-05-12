@@ -1,0 +1,249 @@
+body {
+	font-family: Arial, Tahoma, Helvetica;
+	height: 100%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+} 
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+} 
+
+.clearfix {
+	content: "";
+	display: table;
+	clear: both;
+} 
+/*--------------Header------------------------------------------------*/
+.header_bg {
+	height: 887px;
+	background-image: url("../images/header_img/bg_header.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+}
+/*---------------Container------------------------------------------------------*/
+.header_container {
+	padding-top: 29px;
+}
+
+.header_logo {
+	display: block;
+	width: 73px;
+	height: 73px;
+	background-image: url("../images/header_img/logo.png");
+	margin-bottom: 67px;
+}
+
+.navigation_list {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 60px;
+}
+
+.navigation_list-item {
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+	margin-right: 136px;
+}
+
+.navigation_list-item:nth-child(2) {
+	margin-left: 8px;
+}
+
+.navigation_list-item:nth-child(3) {
+	margin-left: 3px;
+	margin-right: 126px;
+}
+
+.navigation_list-item:last-child {
+	margin-right: 0;
+} 
+
+.navigation_list-item a {
+	font-size: 22px;
+	font-weight: 700;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.navigation_list-item a:hover, .navigation_list-item a:active, .navigation_list-item a:focus {
+	text-decoration: underline;
+}
+
+.header_heading {
+	width: 420px;
+	font-size: 52px;
+	font-weight: normal;
+  	line-height: 1.192;
+  	margin-bottom: 20px;
+	color: #fff;
+  	text-shadow: 0px 1px 1px #2e6b8266;
+}
+
+.header_text p {
+	width: 380px;
+	margin: 0;
+	margin-left: 1px;
+	font-size: 14px;
+	line-height: 1.786;
+	color: #FFF;
+	text-shadow: 0px 1px 1px #357d9866;
+}
+/*--------------//Header--------------------------------------------------*/
+
+
+
+/*-------------------Content------------------------------------------------------*/
+.content_container {
+	padding: 106px 0 85px;
+} 
+
+.left-column {
+	float: left;
+	width: 308px;
+	padding: 0 41px 137px 0;
+	border-right: 1px solid #ebebeb;
+}
+
+.left-column p {
+	margin: 0;
+	font-size: 20px;
+	color: #fe992a;
+  	font-style: italic;
+  	line-height: 1.4;	
+} 
+
+.right-column {
+	float: right;
+	width: 590px;
+}
+
+.right-column-title {
+	margin: 0;
+	margin-bottom: 20px;
+	font-size: 24px;
+	font-weight: normal;
+	color: #fe992a;
+	line-height: 1;
+}
+
+.right-column-text {
+	font-size: 14px;
+	color: #737c85;
+	line-height: 2;
+}
+
+.right-column-text a {
+	color: #737c85;
+}
+
+.right-column-text a:hover, .right-column-text a:focus, .right-column-text a:active {
+	color: #fe992a;
+	text-decoration: none;
+}
+
+/*-------------------------//Content-------------------------------------------------------*/
+
+/*--------------------Footer--------------------------------------------------------*/
+.footer_bg {
+	height: 475px;
+	background-image: url("../images/footer_img/bg_footer.jpg");
+	background-repeat: repeat;
+}
+
+.footer_bg a {
+	font-size: 14px;
+	text-decoration: none;
+	color: #FFF;
+}
+
+.footer_bg a:hover, .footer_bg a:active, .footer_bg a:focus {
+	text-decoration: underline;
+} 
+
+.footer_bg h4 {
+	margin: 0;
+	margin-bottom: 9px;
+	font-size: 18px;
+	font-weight: 700;
+	color: #FFF;
+}
+
+.footer_bg p {
+	margin: 0;
+	font-size: 14px;
+	color: #FFF;
+}   
+
+.contacts, .menu_column {
+	float: left;
+}
+.footer_menu {
+	float: right;
+	width: 655px;
+	margin-top: 43px;
+}
+
+.contacts {
+	width: 208px;
+	margin-top: 43px;
+} 
+
+.menu_column:first-child {
+	margin-left: 6px;
+}
+
+.menu_column:nth-child(2) {
+	margin-left: 59px;
+}  
+
+.menu_column:nth-child(3) {
+	margin-left: 61px;
+}
+
+.menu_column:nth-child(4) {
+	margin-left: 64px;
+}
+
+.menu_column:last-child {
+	margin-left: 81px;
+}  
+
+.contacts_list, .menu_list {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.contacts_list--item {
+	margin: 0;
+	margin-bottom: 15px;
+	padding: 0;
+	font-size: 14px;
+	line-height: 1;
+	color: #FFF;
+}
+
+.contacts_list--item:last-child {
+	margin-bottom: 30px;
+}
+
+.menu_list li {
+	margin-bottom: 10px;
+}
+/* -----------------//Footer----------------------------------- */
+
+
+
+ 
+ 
